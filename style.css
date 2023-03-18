@@ -1,0 +1,58 @@
+body{
+    background-color: peru;
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+li{
+    background-color: burlywood;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    width: 60%;
+}
+
+#header{
+    background-color: saddlebrown;
+    margin: 0 0 20px 0;
+    padding: 25px 0 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#item{
+    flex-direction: row;
+    margin: 10px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+button{
+    border: 1, solid;
+    border-radius: 10px;
+    background-color: peru;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.tarefa{
+    text-transform: uppercase;
+}
+
+#texto{
+    background-color: peru;
+    border: solid, black;
+    border-radius: 10px;
+}
