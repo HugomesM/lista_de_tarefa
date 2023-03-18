@@ -1,7 +1,8 @@
-body{
+body {
     background-color: peru;
     text-align: center;
 }
+
 ul {
     list-style: none;
     padding: 0;
@@ -12,7 +13,7 @@ ul {
     font-weight: bold;
 }
 
-li{
+li {
     background-color: burlywood;
     margin: 10px;
     border-radius: 5px;
@@ -21,25 +22,26 @@ li{
     width: 60%;
 }
 
-#header{
+#header {
     background-color: saddlebrown;
     margin: 0 0 20px 0;
     padding: 25px 0 25px 0;
     display: flex;
     justify-content: space-between;
 }
-#item{
+
+#item {
     flex-direction: row;
     margin: 10px;
 }
 
-img{
+img {
     width: 50px;
     height: 50px;
     border-radius: 10px;
 }
 
-button{
+button {
     border: 1, solid;
     border-radius: 10px;
     background-color: peru;
@@ -47,11 +49,11 @@ button{
     margin-left: 10px;
 }
 
-.tarefa{
+.tarefa {
     text-transform: uppercase;
 }
 
-#texto{
+#texto {
     background-color: peru;
     border: solid, black;
     border-radius: 10px;
